@@ -1,0 +1,90 @@
+{
+  "app": {
+    "name": "PhysioDesk",
+    "tagline": "Daily resistance-band care for desk workers — 5 minutes a day."
+  },
+  "nav": {
+    "today": "Today",
+    "progress": "Progress",
+    "settings": "Settings",
+    "admin": "Admin",
+    "signOut": "Sign out"
+  },
+  "login": {
+    "title": "Sign in to PhysioDesk",
+    "subtitle": "Enter your work email to receive a sign-in link.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@company.com",
+    "submitMagicLink": "Send sign-in link",
+    "googleSignIn": "Continue with Google",
+    "magicLinkSent": "Check your email for the sign-in link.",
+    "or": "or"
+  },
+  "onboarding": {
+    "profile": {
+      "title": "Tell us about you",
+      "displayName": "Display name",
+      "dateOfBirth": "Date of birth",
+      "sex": "Sex at birth",
+      "occupation": "Occupation",
+      "continue": "Continue"
+    },
+    "bodyMap": {
+      "title": "Where do you feel discomfort?",
+      "subtitle": "Click any area on the body where you feel pain, tightness, or strain.",
+      "severityLabel": "Severity (0 = none, 10 = worst possible)",
+      "durationLabel": "How long have you felt this?",
+      "durationWeeks": "{n, plural, =0 {Less than a week} one {{n} week} other {{n} weeks}}",
+      "noSymptoms": "I don't have any pain — I want a preventive program",
+      "continue": "Continue"
+    },
+    "redFlag": {
+      "title": "A few safety questions",
+      "subtitle": "Please answer honestly — these help us know if you need to see a clinician first.",
+      "yes": "Yes",
+      "no": "No",
+      "continue": "Continue"
+    },
+    "referral": {
+      "title": "Please see a clinician before starting",
+      "body": "Based on your answers, we recommend you see a doctor or physiotherapist before beginning an exercise program. PhysioDesk is designed for prevention, not for treating symptoms that warrant medical evaluation.",
+      "findClinician": "How to find a clinician"
+    },
+    "assigned": {
+      "title": "Your program is ready",
+      "subtitle": "We've assigned you the {programName} program — 12 weeks, 5 minutes a day.",
+      "start": "Start today"
+    }
+  },
+  "today": {
+    "title": "Today's session",
+    "estimatedTime": "About {minutes} minutes",
+    "start": "Start session",
+    "noProgram": "No program assigned yet."
+  },
+  "session": {
+    "rpePrompt": "How hard was that?",
+    "rpeScale": "0 = no effort, 10 = absolute maximum",
+    "next": "Next exercise",
+    "finish": "Finish session"
+  },
+  "progress": {
+    "title": "Your progress",
+    "painTrend": "Pain trend",
+    "adherence": "Adherence",
+    "streak": "{n, plural, =0 {No streak yet} one {{n} day streak} other {{n} day streak}}"
+  },
+  "admin": {
+    "title": "Wellness dashboard",
+    "enrolled": "Enrolled",
+    "active8wk": "Active (last 8 weeks)",
+    "painReduction": "Avg. pain reduction",
+    "completionPct": "Average completion",
+    "kAnonNotice": "Not enough data yet — at least 5 active members are required to display aggregate outcomes."
+  },
+  "common": {
+    "back": "Back",
+    "loading": "Loading…",
+    "error": "Something went wrong."
+  }
+}
