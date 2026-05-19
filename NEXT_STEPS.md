@@ -72,7 +72,19 @@ SUPABASE_SECRET_KEY=sb_secret_...
 For local Supabase, `supabase start` prints these. For hosted, copy from
 Project Settings → API.
 
-## 4. Run the dev server
+## 4. Install dependencies (if node_modules is missing)
+
+OneDrive may remove `node_modules` between sessions. If it's gone, reinstall with:
+
+```powershell
+npm install --legacy-peer-deps
+```
+
+The `--legacy-peer-deps` flag is needed because `next-intl@3.26` hasn't yet
+declared `next@16` in its `peerDependencies` (the actual code is compatible —
+it's a metadata lag). You'll see a warning about this; it's expected.
+
+## 5. Run the dev server
 
 ```powershell
 npm run dev
